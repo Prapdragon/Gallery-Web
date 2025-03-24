@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* เริ่มจาก Navbar */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* สไตล์สำหรับ dropdown */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+            border-radius: 5px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <div class="container">
+        <div class="nav-con">
+            <div class="logo">
+                <a href="Firstpage.html">PrapGallery</a>
+            </div>
+            <ul class="menu">
+                <li><a href="Firstpage.html">Home</a></li>
+                <li><a href="AboutUS.html">About us</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Type</a>
+                    <div class="dropdown-content">
+                        <a href="Sideweb/Art.html">Art</a>
+                        <a href="Sideweb/Cosplay.html">Cosplay</a>
+                        <a href="Sideweb/Event.html">Event</a>
+                        <a href="Sideweb/Food.html">Food</a>
+                        <a href="Sideweb/Friends.html">Friends</a>
+                        <a href="Sideweb/Me.html">Me</a>
+                        <a href="Sideweb/Prop.html">Prop</a>
+                        <a href="Sideweb/View.html">View</a>
+                        <a href="Sideweb/Secret.html">???</a>
+                    </div>
+                </li>
+                <li><a href="Contract/Contact.html">Contract Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="hero">
+    <div class="container">
+        <div class="hero-con">
+            <div class="hero-info">
+                <h3>Taewondo Match(Sport)</h3>
+                <p>This is a channel for posting pictures related to Prapdragon's sports that he has competed in or practiced in preparation for the competition. Enjoy watching.</p>
+                <a href="Sideweb/Sport.html"class="hero-btn">Learn more</a>
+            </div>
+            <div class="hero-img">
+                <img src="img/Taewondo.png" alt="Taewondo Image">
+            </div>
+        </div>
+         
+    </div>
+</section>
+<!-- Line 1 -->
+<section class="blog">
+    <div class="container">
+        <div class="blog-title">
+            <h3>My Pic</h3>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="img/Logo.jpg" alt="">
+                <h4>Art</h4>
+                <p>This is a channel for posting pictures related to Prapdragon's art. Enjoy watching.</p>
+                <a href="Sideweb/Art.html"class="blog-btn">Learn more</a>
+            </div>
+            <div class="blog-item">
+                <img src="img/TGS.jpg" alt="">
+                <h4>Cosplay</h4>
+                <p>This is a channel for posting cosplay-related images of Prapdragon. Enjoy watching!</p>
+                <a href="Sideweb/Cosplay.html"class="blog-btn">Learn more</a>
+            </div>
+            <div class="blog-item">
+                <img src="img/CAF.jpg" alt="">
+                <h4>Event</h4>
+                <p>This is a channel for posting pictures related to the Prapdragon Event that you have attended. Enjoy watching.</p>
+                <a href="Sideweb/Event.html"class="blog-btn">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!-- Line 2 -->
+    <section class="blog">
+        <div class="container">
+            <div class="blog-title">
+                <h3>My Pic</h3>
+            </div>
+            <div class="blog-con">
+                <div class="blog-item">
+                    <img src="img/Food.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>This is a channel for posting pictures related to Prapdragon's food that he has eaten and taken pictures of. Please enjoy watching.</p>
+                    <a href="Sideweb/Food.html"class="blog-btn">Learn more</a>
+                </div>
+                <div class="blog-item">
+                    <img src="img/Madam.jpg" alt="">
+                    <h4>Friends</h4>
+                    <p>This is a channel for posting pictures related to Prapdragon's friends who are known to have been impressed by various events, so they took pictures to keep. Please enjoy watching.</p>
+                    <a href="Sideweb/Friends.html"class="blog-btn">Learn more</a>
+                </div>
+                <div class="blog-item">
+                    <img src="img/Me.jpg" alt="">
+                    <h4>Me</h4>
+                    <p>This is a channel for posting pictures related to Prapdragon's Me that he took of himself in the past life until now. Enjoy watching.</p>
+                    <a href="Sideweb/Me.html"class="blog-btn">Learn more</a>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Line 3 -->
+<section class="blog">
+    <div class="container">
+        <div class="blog-title">
+            <h3>My Pic</h3>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="img/Prop.jpg" alt="">
+                <h4>Prop</h4>
+                <p>This is a channel for posting pictures related to Prapdragon's Props that I have made or are currently making. Enjoy watching.</p>
+                <a href="Sideweb/Prop.html"class="blog-btn">Learn more</a>
+            </div>
+            <div class="blog-item">
+                <img src="img/View.jpg" alt="">
+                <h4>View</h4>
+                <p>This is a channel for posting pictures related to Prapdragon's views that I have taken since I was a child until now. Please enjoy watching.</p>
+                <a href="Sideweb/View.html"class="blog-btn">Learn more</a>
+            </div>
+            <div class="blog-item">
+                <img src="img/Secret.jpg" alt="">
+                <h4>???</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, corrupti numquam voluptas ipsa nostrum natus dolore culpa, consequatur dolor nam distinctio possimus? Delectus illum aspernatur error quidem ut atque maxime?(Secret Bro!!!)</p>
+                <a href="Sideweb/Secret.html"class="blog-btn">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<div class="footer-top">
+    <div class="container">
+        <div class="footer-top-con">
+            <div class="footer-top-item">
+                <h4>Lastext Posts</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            JULY <br>
+                            27
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem, ipsum.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            JULY <br>
+                            27
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem, ipsum.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            JULY <br>
+                            27
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem, ipsum.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>  
+                        
+            </div>
+        
+            <div class="footer-top-item">
+                <h4>About</h4>
+                <p>This website was created for Mr. Nopphadon Ladadok to keep small memories from the photos he took so that he can recall those memories later when he grows up.</p>
+            </div>
+            <div class="footer-top-item">
+                <h4>Stay Connected</h4>
+                <p><i class="fa-brands fa-facebook" aria-hidden="true" style="color: blue;"></i> Facebook</p>
+                <p><i class="fa-brands fa-instagram" aria-hidden="true" style="color: pink;"></i> Instagram</p>
+                <p><i class="fa-brands fa-tiktok" aria-hidden="true" style="color: gray;"></i> TikTok</p>
+                <p><i class="fa-brands fa-youtube" aria-hidden="true" style="color: red;"></i> Youtube</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-buttom">
+<p>copyright 2025. All right reserved PrapGallery web design </p>
+</div>
+</body>
+
+</html>
